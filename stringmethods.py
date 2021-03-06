@@ -1,0 +1,8 @@
+print(dir("hello"))
+print(help("hello".format))
+s = "hello, my name is {}".format("Tony Montana")
+print(s)
+s = "This contract is between lawyer {} and client {} and you will pay me ${}".format("Padi", "Sion", "1000")
+print (s)
+print (s.count(" "))
+print(s.lower())
